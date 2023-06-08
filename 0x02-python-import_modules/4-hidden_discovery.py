@@ -1,5 +1,5 @@
 #!/usr/bin/python3
-if __name__ = "__main__":
+/bin/bash: line 1: q: command not found
 
     import hidden_4
 
