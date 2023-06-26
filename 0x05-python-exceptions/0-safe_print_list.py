@@ -1,0 +1,18 @@
+#!/usr/bin/python3
+
+def safe_print_list(my_list=[], x=0):
+    """Print x ele of lis
+    Args:
+        my_list (list): Thes from.
+        x (int): The number of elements
+    Returns:yhe nu
+    """
+    ret = 0
+    for i in range(x):
+        try:
+            print("{}".format(my_list[i]), end="")
+            ret += 1
+        except IndexError:
+            break
+    print("")
+    return (ret)
